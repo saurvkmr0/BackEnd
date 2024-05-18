@@ -1,0 +1,22 @@
+{
+  "name": "req-res",
+  "version": "1.0.0",
+  "description": "to understand how request and response is done using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "req",
+    "res",
+    "request",
+    "response"
+  ],
+  "author": "saurav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+  
+}
