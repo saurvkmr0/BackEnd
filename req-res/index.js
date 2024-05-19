@@ -1,7 +1,8 @@
+require('dotenv').config();
 const express = require('express')
 
 const app = express();
-const port = 4000;
+const port = process.env.PORT; //getting the PORT value form env file
 
 app.get('/', (req,res)=>{
     res.send("you are at home page");
@@ -11,5 +12,5 @@ app.get('/login', (req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log(`listning at port ${4000}`)
+    console.log(`listning at port ${port}`)
 })
